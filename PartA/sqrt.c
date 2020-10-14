@@ -15,8 +15,8 @@ int main(int argc, char* argv[]) {
 		printf("Usage: sqrt input\n\n");
 		exit(-1);
 	}
-
 	int input = atoi(argv[1]);
+	printf("Program is starting...\n");
 	printf("Sqrt of %d is %f",input,sqrt(abs(input)));
 	if(input < 0) printf("i");
 	printf("\nExiting the program\nExiting...\n");
