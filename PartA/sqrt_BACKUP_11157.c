@@ -16,7 +16,11 @@ int main(int argc, char* argv[]) {
 		exit(-1);
 	}
 	int input = atoi(argv[1]);
+<<<<<<< HEAD
+	printf("Program is starting...\n");
+=======
 	printf("Program is staring...\nInput: %d\n",input);
+>>>>>>> br_NegativeSupport
 	printf("Sqrt of %d is %f",input,sqrt(abs(input)));
 	if(input < 0) printf("i");
 	printf("\nExiting the program\nExiting...\n");
